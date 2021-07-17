@@ -1,0 +1,96 @@
+/* Mobile style */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.wrapper{
+    position: relative;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+.bg-wrapper{
+    background-color: hsl(0,0%,100%);
+}
+/* text */
+.text{
+    padding: 0 20px 0 20px;
+    margin: auto 0;
+}
+.text h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+.text ul{
+    list-style: none;
+}
+.text ul li{
+    transition: display .3s;
+}
+.showP{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    font-size: 12px;
+}
+
+.hiddenP{
+    display: none;
+}
+.btn-arrow{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+}
+/* images */
+.image{
+    position: absolute;
+    width: 16.625rem;
+    height: 12.25rem;
+    bottom: 80%;
+    left: 50%;
+    transform: translate(-55%);
+    background-image: url(/images/illustration-woman-online-mobile.svg);
+    z-index: 10;
+}
+.imageShadow{
+    position: absolute;
+    width: 15rem;
+    height: 6.5rem;
+    bottom: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url(/images/bg-pattern-mobile.svg);
+    z-index: 5;
+}
+/* script css */
+.btn-rotate{
+    transform: rotate(180deg);
+}
+.showParagraph{
+    display: block;
+}

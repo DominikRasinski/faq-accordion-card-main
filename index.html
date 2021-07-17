@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(0, 0%, 100%); }
+  </style>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="css/desktopDesign.css" media="screen and (min-width: 1000px)">
+</head>
+<body>
+  <main>
+      <div class="wrapper bg-wrapper">
+        <div class="cube"></div>
+        <section class="images">
+          <div class="image"></div>
+          <div class="imageShadow"></div>
+        </section>
+        <section class="text">
+          <h1>FAQ</h1>
+          <ul>
+            <li>
+              <p class="showP">
+                <label for="button-1">How many team members can I invite? </label>
+                <button id="button-1" class="btn-arrow"><img src="/images/icon-arrow-down.svg" alt=""></button>
+              </p>
+              <p class="hiddenP" id="hiddenP-1">
+                You can invite up to 2 additional users on the Free plan. There is no limit on
+                team members for the Premium plan.
+              </p>
+            </li>
+            <li>
+              <p class="showP">
+                <label for="button-2">What is the maximum file upload size? </label>
+                <button id="button-2" class="btn-arrow"><img src="/images/icon-arrow-down.svg" alt=""></button>
+              </p>
+              <p class="hiddenP" id="hiddenP-2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            </li>
+            <li>
+               <p class="showP">
+                <label for="button-3">How do I reset my password? </label>
+                <button id="button-3" class="btn-arrow"><img src="/images/icon-arrow-down.svg" alt=""></button>
+              </p>
+              <p class="hiddenP" id="hiddenP-3">
+                  Click “Forgot password” from the login page or “Change password” from your profile page.
+                  A reset link will be emailed to you.
+              </p>
+            </li>
+            <li>
+              <p class="showP">
+                <label for="button-4">Can I cancel my subscription? </label>
+                <button id="button-4" class="btn-arrow"><img src="/images/icon-arrow-down.svg" alt=""></button>
+              </p>
+              <p class="hiddenP" id="hiddenP-4">Yes! Send us a message and we’ll process your request no questions asked.</p>
+            </li>
+            <li>
+              <p class="showP">
+                <label for="button-5">Do you provide additional support? </label>
+                <button id="button-5" class="btn-arrow"><img src="/images/icon-arrow-down.svg" alt=""></button>
+              </p>
+              <p class="hiddenP" id="hiddenP-5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/DominikRasinski/my-challenges" target="_blank">Dominik Rasiński</a>.
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
