@@ -29,8 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- desktop loyout:
 
+![](./screnshots/desktop.png)
+
+- mobile loyout:
+
+![](./screnshots/mobile.png)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
