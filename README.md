@@ -52,31 +52,33 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- JS ECMAScript 6
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project I leraned how to make dynamic events in JS, and how use them in my projects.
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+const button = document.querySelectorAll('.btn-arrow');
+const hiddenParagraph = document.querySelectorAll('.hiddenP');
+
+for(const el of button){
+    el.addEventListener("click", e =>{
+        e.target.classList.toggle("btn-rotate");
+        e.target.style.transition = '.2s';
+        e.target.closest('.showP').classList.toggle('showP--fontWeight');
+        showHiddenParagraph(e);
+    });
+}
+function showHiddenParagraph(event){
+    event.preventDefault();
+
+    let paragraphVisible = event.currentTarget.closest('.showP');
+
+    let paragraphHidden = paragraphVisible.nextElementSibling.classList.toggle("showParagraph");
 }
 ```
 
