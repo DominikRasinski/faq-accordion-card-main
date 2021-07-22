@@ -21,17 +21,3 @@ function showHiddenParagraph(event){
     let paragraphHidden = paragraphVisible.nextElementSibling.classList.toggle("showParagraph");
     console.log(paragraphHidden);
 }
-
-
-// document.querySelectorAll('.myButton').forEach(function(button) {
-//     button.addEventListener('click', myFunction);
-//   });
-  
-//   function myFunction(evt) {
-//     evt.preventDefault();
-  
-//     var closest = evt.currentTarget.closest(".button").querySelector('.extra');
-  
-//     console.log(closest)
-  
-//   }
