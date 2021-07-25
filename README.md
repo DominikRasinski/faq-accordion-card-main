@@ -38,7 +38,7 @@ Users should be able to:
 ![](./screnshots/mobile.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontendmentor](https://www.frontendmentor.io/solutions/html5-css3-js6-mobile-first-flexbox-DXAhBxlry)
 - Live Site URL: [vercel.com/dominikrasinski/faq-accordion-card-main](https://faq-accordion-card-main-blush-seven.vercel.app/)
 
 ### Built with
@@ -83,7 +83,7 @@ I think in this project i created everything right, so I'm don't going about con
 ### Useful resources
 
 - [stackOverflow](https://stackoverflow.com/questions/57615247/javascript-closest-returning-null) - This article on stackOverflow helped me to understand how to create dynamic events on ```Arrays``` with elements selected by ```querySelectorAll```.
-- [MDN closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest) - This article is must have to understand, if you want make dynamic events in JS.
 - [MDN nextElementSibling](https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling) - Here you can learn how works ```nextElementSibling``` (I'm before reading on stackOverflow how to create dynamic events on ```Arrays```, I don't knew is exist a method ```nextElementSibling```).
 
 ## Author
