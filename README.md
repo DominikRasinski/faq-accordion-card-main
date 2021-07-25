@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [vercel.com/dominikrasinski/faq-accordion-card-main](https://faq-accordion-card-main-blush-seven.vercel.app/)
 
 ### Built with
 
@@ -88,6 +88,5 @@ I think in this project i created everything right, so I'm don't going about con
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website on vercel - [dominikrasinski](https://vercel.com/dominikrasinski)
+- Frontend Mentor - [@DominikRasinski](https://www.frontendmentor.io/profile/DominikRasinski)
